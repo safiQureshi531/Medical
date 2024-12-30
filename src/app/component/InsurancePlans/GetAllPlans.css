@@ -1,0 +1,86 @@
+.plans-container {
+  margin-left: 270px; 
+  padding: 20px;
+}
+.plans-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .plans-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .plan-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .plan-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .plan-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .plan-detail {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .selected-plan-details {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff4e5;
+    border: 1px solid #ffcc99;
+    border-radius: 8px;
+  }
+  
+  .selected-plan-details h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  .claim-button {
+    background-color: #5a7088;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .claim-button:hover {
+    background-color: #102a45;
+  }
+  

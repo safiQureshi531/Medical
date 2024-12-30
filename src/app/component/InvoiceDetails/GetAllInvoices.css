@@ -1,0 +1,141 @@
+.invoices-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Filter buttons */
+  .filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .filter-button.active {
+    background-color: #0c2949;
+    color: #fff;
+    border-color: #76818c;
+  }
+  
+  .filter-button:hover {
+    background-color: #4d7197;
+    color: #fff;
+  }
+  
+  /* Table container */
+  .table-container {
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .invoices-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .invoices-table th,
+  .invoices-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .invoices-table th {
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .invoices-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .invoices-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .no-invoices {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+  }
+  
+  /* Buttons in the Action column */
+  .delete-button, .details-button,
+  .mark-paid-button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .delete-button {
+    background-color: red;
+  }
+  
+  .delete-button:hover {
+    background-color: red;
+  }
+
+  .details-button {
+    background-color: rgb(201, 201, 68);
+  }
+  
+  .details-button:hover {
+    background-color: yellow;
+  }
+  
+  .mark-paid-button {
+    background-color: #28a745;
+  }
+  
+  .mark-paid-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .filter-buttons {
+      flex-wrap: wrap;
+    }
+  
+    .filter-button {
+      margin-bottom: 10px;
+    }
+  
+    .invoices-table th,
+    .invoices-table td {
+      padding: 10px 8px;
+    }
+  }
+  
+  

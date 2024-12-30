@@ -1,0 +1,73 @@
+.register-company {
+    background-image: url("https://i.pinimg.com/736x/64/2a/bd/642abdf64e03384de6e63f91be8fc8f6.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.register-company h2 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #2c4560;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #05182c;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color:green;
+    text-align: center;
+    margin-bottom: 10px;
+}

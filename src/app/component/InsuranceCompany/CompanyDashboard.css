@@ -1,0 +1,32 @@
+.company-dashboard {
+    display: flex;
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+  }
+.main-content-area {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    overflow-y: auto;
+    align-items: center;
+    margin-left: 200px;
+}
+.main-content-area img {
+    align-items: center;
+    max-width: 60%; 
+    height: auto; 
+    border-radius: 8px; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto; 
+}
+.main-content-area h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-content-area h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ffffff; 
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    text-align: center; 
+    vertical-align: middle;
+  }
+  th {
+    background-color: #2d3e50;
+    color: #ffffff;
+  }
+  /* Delete Button Styling */
+table .delete-btn {
+    background-color: #f44336; 
+    color: black;
+    border: none;
+    padding: 8px 15px; 
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+table .delete-btn:hover {
+    background-color: #e01111;
+}
+
+
+

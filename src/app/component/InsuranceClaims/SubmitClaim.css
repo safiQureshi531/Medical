@@ -1,0 +1,86 @@
+.claim-container {
+    min-height: 100vh;
+    padding-top:100px;
+    padding-bottom: 50px;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+  .claim-form {
+    width: 100%;
+    max-width: 550px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  .form-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-label {
+    font-size: 14px;
+    color: #4a5568;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .file-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #3182ce;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-btn.loading {
+    background-color: #f9fafb;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .status-message {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .status-message.success {
+    background-color: #c6f6d5;
+    color: #2f855a;
+  }
+  
+  .status-message.error {
+    background-color: #fed7d7;
+    color: #e53e3e;
+  }
+  

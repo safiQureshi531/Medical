@@ -1,0 +1,69 @@
+.claim-history-container {
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .claim-history-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .loading-message,
+  .error-message,
+  .no-data-message {
+    text-align: center;
+    color: #555;
+    font-size: 1.2rem;
+  }
+  
+  .claim-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .claim-history-table th,
+  .claim-history-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .claim-history-table th {
+    background-color: #2d3e50;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .claim-history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .claim-history-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .status-badge.approved {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .status-badge.rejected {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .status-badge.pending {
+    background-color: #ff9800;
+    color: white;
+  }
+  

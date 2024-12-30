@@ -1,0 +1,140 @@
+.provider-dashboard {
+    display: flex;
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 250px; 
+    height: 100vh; 
+    background-color: white; 
+    color: #2d3e50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    overflow-y: auto; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+}
+.main-content {
+    margin-left: 250px; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+    overflow-y: auto; 
+}
+.sidebar .logo img {
+    width: 80%;
+    max-width: 250px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.sidebar .nav-links {
+    list-style: none;
+    padding: 0;
+    width: 100%; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sidebar .nav-links li {
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #2d3e50;
+    margin: 1px 0;
+    transition: background-color 0.3s ease;
+    gap: 25px;
+}
+.nav-links i {
+    font-size: 18px; 
+    color: #2d3e50; 
+    margin-right: 10px;
+}
+.sidebar .nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
+.nav-links li:hover {
+    background-color: #f0f0f0; 
+    border-radius: 4px; 
+}
+.logout-item {
+    margin-top: auto; 
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logout-item i {
+    margin-right: 10px; 
+    font-size: 18px; 
+}
+
+/* Main Content Styles */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    overflow-y: auto;
+}
+
+.main-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-body h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Table Styles */
+.getPatients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ffffff; 
+}
+.getPatients-table th,
+.getPatients-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    text-align: center; 
+    vertical-align: middle;
+}
+.getPatients-table th {
+    background-color: #2d3e50;
+    color: #ffffff;
+}
+.getPatients-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.getPatients-table .generate-btn {
+    background-color: green; 
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.getPatients-table .generate-btn:hover {
+    background-color: darkgreen; 
+}
+@media (max-width: 768px) {
+    .provider-dashboard {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
